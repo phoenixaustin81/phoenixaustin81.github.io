@@ -146,10 +146,10 @@ a {
 
 /* Title */
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   .title-row {
     display: flex;
-    flex-flow: column-reverse;
+    flex-flow: row-reverse;
   }
 }
 
